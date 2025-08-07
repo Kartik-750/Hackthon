@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <title>Stock Tracker</title>
 </head>
 
@@ -19,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse dropdown" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-content">
-                    <a class="nav-link active choice" aria-current="page">Home</a>
+                    <a class="nav-link choice" aria-current="page">Home</a>
                     <a class="nav-link choice" href="#">Features</a>
                     <a class="nav-link choice" href="#">Pricing</a>
                 </div>
@@ -41,37 +43,37 @@
 
     <div class="card-container" id="stockinfo">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="info-card col-4 col-md-4 col-lg-4 ">
-                    <h3>Current Price</h3>
-                    <div id="price" class="value">$0.00</div>
-                </div>
-                <div class="info-card col-4 col-md-4 col-lg-4  ">
-                    <h3>Daily Change %</h3>
-                    <div id="dailychange" class="value">$0.00</div>
-                    <div id="dailychangepercent" class="change">0.00%</div>
-                </div>
-                <div class="info-card col-4 col-md-4 col-lg-4">
-                    <h3>Volume</h3>
-                    <div id="volume" class="value">$0.00</div>
-                </div>
-                <div class="info-card col-4 col-md-4 col-lg-4  ">
-                    <h3>Daily High</h3>
-                    <div id="dailyhigh" class="value">$0.00</div>
-                </div>
-                <div class="info-card col-5 col-md-4 col-lg-4">
-                    <h3>Daily Low</h3>
-                    <div id="dailylow" class="value">$0.00</div>
-                </div>
-            </div>
+                <div class="row justify-content-center">
+                    <div class="info-card col-4 col-md-4 col-lg-4 ">
+                        <h3>Current Price</h3>
+                        <div id="price" class="value">$0.00</div>
+                    </div>
+                    <div class="info-card col-4 col-md-4 col-lg-4  ">
+                        <h3>Daily Change %</h3>
+                        <div id="dailychange" class="value">$0.00</div>
+                        <div id="dailychangepercent" class="change positive">0.00%</div>
+                    </div>
+                    <div class="info-card col-4 col-md-4 col-lg-4">
+                        <h3>Volume</h3>
+                        <div id="volume" class="value">$0.00</div>
+                    </div>
+                    <div class="info-card col-4 col-md-4 col-lg-4  ">
+                        <h3>Daily High</h3>
+                        <div id="dailyhigh" class="value">$0.00</div>
+                    </div>
+                    <div class="info-card col-5 col-md-4 col-lg-4">
+                        <h3>Daily Low</h3>
+                        <div id="dailylow" class="value">$0.00</div>
+                    </div>
+             </div>
         </div>
     </div>
 
-    <div class="chart-container d-none d-lg-block">
-        <div class="chart-title">Hi my name is nagesh</div>
-        <canvas id="pricechart"></canvas>
-        <div class="lastupdated" id="lastupdate"></div>
-    </div>
+        <div class="chart-container">
+            <h2 class="chart-title">Stock Price (Daily Close)</h2>
+            <canvas id="stockChart"></canvas>
+        </div>
+        
     <script src="script.js"></script>
 </body>
 </html>

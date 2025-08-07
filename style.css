@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    height: 150px;
+}
+
+.navbar-bg {
+    background-color: rgb(230, 14, 238);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.choice {
+    list-style-type: none;
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(11, 22, 12);
+    padding: 8px;
+    /* padding: 8px; */
+
+}
+
+#logo {
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(6, 1, 31);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.choice:hover {
+    height: 30px;
+    border-radius: 3px;
+    /* background-color: rgba(115, 252, 138, 0.966); */
+    color: rgb(7, 22, 2);
+    padding: 8px;
+}
+
+.nav-content {
+
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.container-fluid {
+    padding-left: 0.6rem !important;
+    padding-right: 0rem !important;
+}
+
+span {
+    color: rgb(121, 3, 231);
+}
+
+.control {
+    padding: 30px;
+    background: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.banner {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-head {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dark black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.banner-para {
+    font-size: 1.1rem;
+    color: grey;
+
+}
+
+.search-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Search-input {
+    padding: 12px 20px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.sbtn {
+    padding: 14px;
+    border: none;
+    background-color: rgb(207, 110, 252);
+    color: #041d36;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sbtn:hover {
+    box-shadow: 0 0 10px 5px #b7c4c5;
+}
+
+.info-card {
+    background: White;
+    color: Black;
+    padding: 22px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    height: 160px;
+
+}
+
+.info-card:hover {
+    background: White;
+    color: Black;
+    padding: 22px;
+    border-radius: 15px;
+    border: 2px solid lightgreen;
+    text-align: center;
+    /* box-shadow: 0 0 7px 7px lightgreen; */
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.info-card h3 {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-card .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.chart-container {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.chart-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(121, 3, 231);
+
+}

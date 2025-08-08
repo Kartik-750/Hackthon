@@ -149,6 +149,7 @@ span {
     box-shadow: 0 10px 12px rgba(41, 41, 41, 0.4);
     margin: 10px;
     height: 160px;
+    min-width: 300px;
 
 }
 .positive {
@@ -196,8 +197,8 @@ span {
     box-shadow: 0 6px 15px rgba(216, 8, 8, 0.113);
     margin-bottom: 20px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     height: 400px;
     margin-top: 20px;
 }

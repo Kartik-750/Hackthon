@@ -36,13 +36,13 @@
         <div class="search-bar">
             <input class="Search-input" id="symbolInput" type="text" placeholder="Enter Symbole of Stock : AAPL">
             <button id="start-tracking" class="sbtn" onclick="getStockInfo();">Start Tracking</button>
-            <button id="stop-tracking" class="sbtn">Stop Tracking</button>
+            <button id="stop-tracking" class="sbtn" onclick="stopTracking()">Stop Tracking</button>
         </div>
 
     </div>
 
-    <div class="card-container" id="stockinfo">
-        <div class="d-flex flex-wrap justify-content-center">
+    <!-- <div class="card-container" id="stockinfo"> -->
+        <div class="d-flex flex-wrap justify-content-center" width="300">
                     <div class="info-card ">
                         <h3>Current Price</h3>
                         <div id="price" class="value">$0.00</div>
@@ -63,16 +63,19 @@
                     <div class="info-card">
                         <h3>Daily Low</h3>
                         <div id="dailylow" class="value">$0.00</div>
-                    </div>
-             
+                    </div>   
         </div>
-    </div>
-
+    <!-- </div> -->
         <div class="chart-container">
+           
             <h2 class="chart-title">Stock Price (Daily Close)</h2>
             <canvas id="stockChart"></canvas>
-        </div>
         
+        </div>
+    <footer>
+
+    </footer>
+     
     <script src="script.js"></script>
 </body>
 </html>

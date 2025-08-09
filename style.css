@@ -129,15 +129,49 @@ span {
     margin-left: 10px;
     border-radius: 5px;
     cursor: pointer;
-
+    text-decoration: none;
     transition: all 0.3s ease;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.sbtn a{
+    color: #f1fa8a;
+    text-decoration: none;
 }
 
 .sbtn:hover {
     box-shadow: 0 0 2px 2px #b7c4c5;
 }
+.logo-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    width: 50px;
+  }
+  .card{
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 10px 10px rgba(49, 49, 26, 0.303);
+    margin: 10px;
+    margin-right: 20px;
+    background: linear-gradient(to left,rgb(51, 51, 52),rgba(12, 41, 1, 0.559));
+
+  }
+  .card h3{
+    font-size: 18px;
+    color: rgb(196, 196, 215);
+    font-weight: bold;
+  }
+  .card h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #cee012;
+  }
 
 .info-card {
     background: linear-gradient(to left,rgb(51, 51, 52),rgb(41, 40, 1));
@@ -196,11 +230,12 @@ span {
     padding: 20px;
     box-shadow: 0 6px 15px rgba(216, 8, 8, 0.113);
     margin-bottom: 30px;
-    max-width: 50rem;
+    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
     margin-top: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.167);
     
 }
 

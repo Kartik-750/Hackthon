@@ -9,8 +9,8 @@ $tock Snap is a simple and interactive stock tracking web application that helps
 ---
 📷Screenshot
 
-<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/9895161f-3bfa-404b-b128-58d42a72fa21" />
-<img width="1918" height="1013" alt="image" src="https://github.com/user-attachments/assets/7885b5dc-33a9-46e8-a41b-20793dca209d" />
+<img width="1885" height="906" alt="image" src="https://github.com/user-attachments/assets/88af70d3-a06e-4afa-96d5-4b9cd31f4eca" />
+<img width="1893" height="897" alt="image" src="https://github.com/user-attachments/assets/1ae3ba35-a78b-4b7c-82ab-d3a9327d85f9" />
 
 
 
